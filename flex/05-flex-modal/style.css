@@ -46,6 +46,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 button {
@@ -63,4 +64,36 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modal {
+  display: flex;
+  padding: 16px;
+ 
+}
+
+.container {
+  display: flex;
+  flex-shrink: 0;
+  margin-right: 16px;
+}
+
+.potatoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top {
+  display: flex;
+  font-size: 18px;
+  font-weight: 900;
+  justify-content: space-between;
+  align-items: center;
+
+} 
+
+.buttons {
+  display: flex;
+  gap: 10px;
 }
